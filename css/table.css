@@ -1,0 +1,38 @@
+
+#styled th, #styled td {
+  padding: 10px 20px;
+}
+
+#styled {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#styled thead th {
+  background-color: #197648;
+  color: #ffffff;
+  text-align: left;
+}
+
+#styled tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+#styled tr:nth-child(even) {
+  background-color: #cacaca;
+}
+
+#styled tfoot th, #styled tfoot td {
+  text-align: left;
+  background-color: #1fc158;
+}
+
+caption {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+tr:hover {
+  opacity: 0.7;
+}
