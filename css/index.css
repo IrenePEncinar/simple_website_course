@@ -1,7 +1,9 @@
 body {
   margin: 0;
+  padding: 0;
   width: 100%;
   font-family: Tahoma, sans-serif;
+  overflow-x: hidden;
 }
 
 #header {
@@ -38,7 +40,7 @@ body {
 }
 
 .container {
-  position: absolute;
+  position: relative;
   top: 90px;
   width: 100%;
 }
@@ -142,4 +144,82 @@ p {
   padding: 20px;
   background-color: seashell;
   margin: 10px;
+}
+
+#relleno {
+  width: 80%;
+  margin: 70px auto;
+}
+
+#relleno p{
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  color: #606060;
+}
+
+/* Footer */
+
+#footer {
+  width: 100%;
+  background-color: rgba(222, 184, 135, 0.344);
+  border-top: 1px solid rgba(222, 184, 135, 0.6);
+  padding: 40px 0 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#footer-main {
+  width: 100%;
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-column {
+  width: 20%;
+}
+
+#footer .logo {
+  width: 150px;
+  margin: 0 auto;
+}
+
+#footer .sp-logo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+#footer img {
+  width: 100%;
+}
+
+#footer h5 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Goldman', cursive;
+  margin: 0 0 10px 0;
+}
+
+#footer p {
+  line-height: 30px;
+  font-size: 14px;
+  margin:0;
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+#footer hr {
+  margin: 20px 50px;
+  border: none;
+  border-top: 1px solid #57400ed9;;
+}
+
+#footer p#copyright {
+  text-align: right;
+  margin-right: 50px;
+  color: #505050;
 }
